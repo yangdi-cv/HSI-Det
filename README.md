@@ -2,7 +2,7 @@
 
 By Y. Di, S. L. Phung, L. Bui, H. T. Le, J. Berg, J. Clissold, and A. Bouzerdoum.
 
-<img src="https://github.com/yangdi-cv/HSI-Det/blob/main/hsi-det.png?raw=true" height="200"/>
+<img src="https://github.com/yangdi-cv/HSI-Det/blob/main/hsi-det_network.png?raw=true" height="200"/>
 
 The paper is under review, and the code will be released after publication.
 
