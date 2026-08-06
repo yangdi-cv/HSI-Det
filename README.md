@@ -10,7 +10,7 @@ The paper is under review, and the code will be released after publication.
 
 | Dataset       | # Class  | # Image  | # Instance  | Link | 
 |:-------------:| :-------:|:--------:|:-----------:|:----:|
-|  HSI-Bio |  23 | 8,000 | 11,802 | [Google Drive](https://drive.google.com/drive/folders/1QiMLZopLLVuNav_py7TyrwpI6h3WVJ25?usp=drive_link) | 
+|  HSI-Bio |  23 | 8,000 | 11,082 | [Google Drive](https://drive.google.com/drive/folders/1QiMLZopLLVuNav_py7TyrwpI6h3WVJ25?usp=drive_link) | 
 
 <img src="https://github.com/yangdi-cv/HSI-Det/blob/main/examples/img_HSI_2023-07-11_17-31-59-4.jpg?raw=true" height="200"/> <img src="https://github.com/yangdi-cv/HSI-Det/blob/main/examples/img_HSI_2023-07-12_10-52-50-6.jpg?raw=true" height="200"/>
 <img src="https://github.com/yangdi-cv/HSI-Det/blob/main/examples/img_HSI_2023-07-12_14-26-02-2.jpg?raw=true" height="200"/> <img src="https://github.com/yangdi-cv/HSI-Det/blob/main/examples/img_HSI_2023-07-18_11-57-06-3.jpg?raw=true" height="200"/>
