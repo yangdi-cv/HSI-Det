@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+!weights/hsidet.onnx
+*.engine
+data/train/
+data/val/
+data/test/

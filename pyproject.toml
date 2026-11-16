@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hsi-det-research"
+version = "0.1.0"
+description = "HSI-Det model components built on Ultralytics"
+requires-python = ">=3.10"
+dependencies = ["ultralytics==8.4.54", "PyYAML>=6.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hsi_det*"]
