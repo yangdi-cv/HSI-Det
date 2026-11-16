@@ -4,6 +4,15 @@ By Y. Di, S. L. Phung, L. Bui, H. T. Le, J. Berg, J. Clissold, and A. Bouzerdoum
 
 <img src="https://github.com/yangdi-cv/HSI-Det/blob/main/hsi-det_network.png?raw=true" height="200"/>
 
+## Installation
+
+```bash
+git clone https://github.com/yangdi-cv/HSI-Det.git
+cd HSI-Det
+python -m pip install -e .
+python -m pip install onnxruntime
+```
+
 ## Training
 
 ```bash
@@ -13,7 +22,7 @@ python scripts/train.py --data data/hsi_bio.example.yaml
 ## Inference
 
 ```bash
-yolo detect predict model=weights/hsidet.onnx source=examples/tiff
+python scripts/predict.py
 ```
 
 ## Dataset
@@ -32,6 +41,7 @@ yolo detect predict model=weights/hsidet.onnx source=examples/tiff
     title={HSI-Det: Efficient Multiscale Contextual Network for Hyperspectral Pest and Seed Detection},
     author={Yang Di and Son Lam Phung and Ly Bui and Hoang Thanh Le and Julian van den Berg and Jason Clissold and Abdesselam Bouzerdoum},
     booktitle={IEEE Transactions on AgriFood Electronics (TAFE)},
+    doi={10.1109/TAFE.2026.3740752},
     year={2026}
 }
 ```
